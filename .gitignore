@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Tool output (do not commit real baselines/logs with private data)
+baseline.json
+*.log
+!tools/log-analyzer/sample.log
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Secrets — NEVER commit these (red flag + security risk)
+.env
+*.pem
+*.key
+id_rsa*
